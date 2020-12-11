@@ -1,5 +1,6 @@
 package com.goshopping.common.config;
 
+import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -8,7 +9,6 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Knife4j API文档配置
@@ -17,12 +17,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @date 2020/12/11
  */
 @Configuration
-@EnableSwagger2
+@EnableKnife4j
 public class Knife4jConfiguration {
     @Bean(value = "defaultApi2")
     public Docket defaultApi2() {
-        return new Docket(DocumentationType.SWAGGER_2)
+        return new Docket(DocumentationType.OAS_30)
                 .apiInfo(new ApiInfoBuilder()
+                        .title("GoShopping API接口文档")
                         .description("GoShopping API接口文档")
                         .termsOfServiceUrl("localhost")
                         .contact(new Contact("yujianzhong", "localhost", "1120384609@qq.com"))
