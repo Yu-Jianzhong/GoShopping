@@ -11,5 +11,12 @@
 
     <artifactId>goshopping-admin</artifactId>
 
-
+    <dependencies>
+        <!--通用模块-->
+        <dependency>
+            <groupId>com.goshopping</groupId>
+            <artifactId>goshopping-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
