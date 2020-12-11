@@ -2,7 +2,7 @@
 
 GoShopping是一个基于mall改造的电商系统
 
-## 组织结构
+## 项目结构
 
 ``` lua
 Goshopping

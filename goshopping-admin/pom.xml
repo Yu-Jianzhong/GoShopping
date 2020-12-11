@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>goshopping-admin</artifactId>
+    <description>后台管理系统服务</description>
 
     <dependencies>
         <!--通用模块-->
