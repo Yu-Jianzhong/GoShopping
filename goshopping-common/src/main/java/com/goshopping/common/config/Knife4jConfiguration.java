@@ -21,7 +21,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 public class Knife4jConfiguration {
     @Bean(value = "defaultApi2")
     public Docket defaultApi2() {
-        return new Docket(DocumentationType.OAS_30)
+        return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
                         .title("GoShopping API接口文档")
                         .description("GoShopping API接口文档")
