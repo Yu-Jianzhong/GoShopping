@@ -13,17 +13,6 @@
     <description>网关</description>
 
     <dependencies>
-        <dependency>
-            <groupId>com.goshopping</groupId>
-            <artifactId>goshopping-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-web</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <!--nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
