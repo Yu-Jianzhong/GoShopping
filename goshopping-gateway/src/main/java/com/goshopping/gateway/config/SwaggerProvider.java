@@ -21,7 +21,7 @@ import java.util.List;
 @AllArgsConstructor
 public class SwaggerProvider implements SwaggerResourcesProvider {
     public static final String API_URI = "/v2/api-docs";
-    public static final String EUREKA_SUB_PRIX = "ReactiveCompositeDiscoveryClient_";
+    public static final String SUB_PRIX = "ReactiveCompositeDiscoveryClient_";
 
     private final DiscoveryClientRouteDefinitionLocator routeLocator;
 
@@ -31,9 +31,7 @@ public class SwaggerProvider implements SwaggerResourcesProvider {
         routeLocator.getRouteDefinitions().subscribe(routeDefinition -> {
             // 不将网关加入到swagger
             if (!routeDefinition.getId().contains("gateway")) {
-                System.out.println(routeDefinition.getId());
-                System.out.println(routeDefinition.getPredicates());
-                resources.add(swaggerResource(routeDefinition.getId().substring(EUREKA_SUB_PRIX.length()), routeDefinition.getPredicates().get(0).getArgs().get("pattern").replace("/**", API_URI)));
+                resources.add(swaggerResource(routeDefinition.getId().substring(SUB_PRIX.length()), routeDefinition.getPredicates().get(0).getArgs().get("pattern").replace("/**", API_URI)));
             }
         });
         return resources;

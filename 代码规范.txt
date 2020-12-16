@@ -22,6 +22,7 @@ dao：
 
 页码：pageNum
 每页显示条数：pageSize
+状态：status
 
 端口号：
 gateway:1200
