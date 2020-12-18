@@ -10,6 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>goshopping-auth</artifactId>
-
+    <description>基于Spring Security Oauth2的统一认证中心</description>
 
 </project>
