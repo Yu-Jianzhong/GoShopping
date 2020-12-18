@@ -52,6 +52,10 @@ public class ResponseResult<T> implements Serializable {
         return new ResponseResult<T>().code(StatusCode.FAILED.getCode()).message(StatusCode.FAILED.getMessage());
     }
 
+    public static <T> ResponseResult<T> failed(String message) {
+        return new ResponseResult<T>().code(StatusCode.FAILED.getCode()).message(message);
+    }
+
     public static <T> ResponseResult<T> build(int code, String message) {
         return new ResponseResult<T>(code, message, null);
     }

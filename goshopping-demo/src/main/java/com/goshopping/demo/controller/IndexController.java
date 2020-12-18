@@ -25,6 +25,7 @@ public class IndexController {
     @ApiOperation("向客人问好")
     @GetMapping("/sayHi")
     public ResponseResult<String> sayHi() {
-        return ResponseResult.success("Hi:" + serverName);
+        throw new RuntimeException("aaaa");
+        //return ResponseResult.success("Hi:" + serverName);
     }
 }
