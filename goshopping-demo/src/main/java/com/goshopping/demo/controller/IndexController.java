@@ -3,7 +3,6 @@ package com.goshopping.demo.controller;
 import com.goshopping.common.api.ResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,14 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class IndexController {
-
-    @Value("${service.name}")
-    private String serverName;
-
     @ApiOperation("向客人问好")
     @GetMapping("/sayHi")
     public ResponseResult<String> sayHi() {
-        throw new RuntimeException("aaaa");
-        //return ResponseResult.success("Hi:" + serverName);
+        return ResponseResult.success("Hi!");
     }
 }
