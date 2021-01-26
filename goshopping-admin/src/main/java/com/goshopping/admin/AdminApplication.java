@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author yujianzhong
  * @date 2020/12/11
  */
+@EnableFeignClients
+@EnableDiscoveryClient
 @SpringBootApplication
 public class AdminApplication {
     public static void main(String[] args) {
