@@ -1,5 +1,6 @@
 package com.goshopping.common.service.impl;
 
+
 import com.goshopping.common.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -11,9 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * redis操作实现类
- *
- * @author yujianzhong
- * @date 2020/12/26
+ * Created by macro on 2020/3/3.
  */
 public class RedisServiceImpl implements RedisService {
     @Autowired

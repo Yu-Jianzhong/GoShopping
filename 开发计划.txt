@@ -1,5 +1,5 @@
-common
 admin
+auth
 gateway
 启动前端项目、根据前端页面需要，将mall代码搬到GoShopping项目中
 搭建环境，让GoShopping项目跑起来

@@ -1,4 +1,4 @@
-package com.goshopping.common.entity;
+package com.goshopping.common.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,7 +13,7 @@ import java.util.List;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
-public class UserDTO {
+public class UserDto {
     private Long id;
     private String username;
     private String password;

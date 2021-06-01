@@ -1,19 +1,17 @@
-package com.goshopping.common.entity;
+package com.goshopping.common.domain;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * Knife4j自定义配置
- *
- * @author yujianzhong
- * @date 2020/12/16
+ * Swagger自定义配置
+ * Created by macro on 2020/7/16.
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Builder
-public class Knife4jProperties {
+public class SwaggerProperties {
     /**
      * API文档生成基础路径
      */
