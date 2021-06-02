@@ -1,8 +1,8 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.UmsMemberLevel;
-import com.macro.mall.service.UmsMemberLevelService;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.mbg.model.UmsMemberLevel;
+import com.goshopping.admin.service.UmsMemberLevelService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

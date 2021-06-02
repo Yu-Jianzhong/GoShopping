@@ -1,10 +1,10 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.common.domain.UserDto;
-import com.macro.mall.dto.UmsAdminParam;
-import com.macro.mall.dto.UpdateAdminPasswordParam;
-import com.macro.mall.model.*;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.common.domain.UserDto;
+import com.goshopping.admin.dto.UmsAdminParam;
+import com.goshopping.admin.dto.UpdateAdminPasswordParam;
+import com.goshopping.mbg.model.*;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

@@ -1,9 +1,9 @@
 package com.goshopping.admin.service.impl;
 
-import com.macro.mall.mapper.OmsCompanyAddressMapper;
-import com.macro.mall.model.OmsCompanyAddress;
-import com.macro.mall.model.OmsCompanyAddressExample;
-import com.macro.mall.service.OmsCompanyAddressService;
+import com.goshopping.mbg.mapper.OmsCompanyAddressMapper;
+import com.goshopping.mbg.model.OmsCompanyAddress;
+import com.goshopping.mbg.model.OmsCompanyAddressExample;
+import com.goshopping.admin.service.OmsCompanyAddressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

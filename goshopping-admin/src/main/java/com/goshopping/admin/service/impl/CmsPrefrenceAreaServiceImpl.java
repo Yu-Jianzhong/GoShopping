@@ -1,9 +1,9 @@
 package com.goshopping.admin.service.impl;
 
-import com.macro.mall.mapper.CmsPrefrenceAreaMapper;
-import com.macro.mall.model.CmsPrefrenceArea;
-import com.macro.mall.model.CmsPrefrenceAreaExample;
-import com.macro.mall.service.CmsPrefrenceAreaService;
+import com.goshopping.mbg.mapper.CmsPrefrenceAreaMapper;
+import com.goshopping.mbg.model.CmsPrefrenceArea;
+import com.goshopping.mbg.model.CmsPrefrenceAreaExample;
+import com.goshopping.admin.service.CmsPrefrenceAreaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

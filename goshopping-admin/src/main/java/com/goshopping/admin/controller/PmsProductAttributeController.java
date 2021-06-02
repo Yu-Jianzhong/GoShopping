@@ -1,11 +1,11 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.PmsProductAttributeParam;
-import com.macro.mall.dto.ProductAttrInfo;
-import com.macro.mall.model.PmsProductAttribute;
-import com.macro.mall.service.PmsProductAttributeService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.PmsProductAttributeParam;
+import com.goshopping.admin.dto.ProductAttrInfo;
+import com.goshopping.mbg.model.PmsProductAttribute;
+import com.goshopping.admin.service.PmsProductAttributeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

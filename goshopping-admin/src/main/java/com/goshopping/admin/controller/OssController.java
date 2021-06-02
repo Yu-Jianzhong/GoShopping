@@ -1,10 +1,10 @@
 package com.goshopping.admin.controller;
 
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.OssCallbackResult;
-import com.macro.mall.dto.OssPolicyResult;
-import com.macro.mall.service.impl.OssServiceImpl;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.OssCallbackResult;
+import com.goshopping.admin.dto.OssPolicyResult;
+import com.goshopping.admin.service.impl.OssServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

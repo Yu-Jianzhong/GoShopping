@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.UmsMemberLevel;
+import com.goshopping.mbg.model.UmsMemberLevel;
 
 import java.util.List;
 

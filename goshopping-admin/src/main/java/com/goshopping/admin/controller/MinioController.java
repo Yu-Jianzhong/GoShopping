@@ -2,9 +2,9 @@ package com.goshopping.admin.controller;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.json.JSONUtil;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.BucketPolicyConfigDto;
-import com.macro.mall.dto.MinioUploadDto;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.BucketPolicyConfigDto;
+import com.goshopping.admin.dto.MinioUploadDto;
 import io.minio.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

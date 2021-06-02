@@ -10,6 +10,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan({"com.macro.mall.mapper","com.goshoppping.admin.mapper"})
+@MapperScan({"com.goshopping.mbg.mapper","com.goshoppping.admin.mapper"})
 public class MyBatisConfig {
 }

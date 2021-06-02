@@ -1,8 +1,8 @@
 package com.goshopping.admin.service.impl;
 
-import com.macro.mall.mapper.OmsOrderSettingMapper;
-import com.macro.mall.model.OmsOrderSetting;
-import com.macro.mall.service.OmsOrderSettingService;
+import com.goshopping.mbg.mapper.OmsOrderSettingMapper;
+import com.goshopping.mbg.model.OmsOrderSetting;
+import com.goshopping.admin.service.OmsOrderSettingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

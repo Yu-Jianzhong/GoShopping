@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.UmsResourceCategory;
+import com.goshopping.mbg.model.UmsResourceCategory;
 
 import java.util.List;
 

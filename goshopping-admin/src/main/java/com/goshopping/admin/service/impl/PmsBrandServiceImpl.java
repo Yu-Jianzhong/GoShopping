@@ -1,14 +1,14 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.dto.PmsBrandParam;
-import com.macro.mall.mapper.PmsBrandMapper;
-import com.macro.mall.mapper.PmsProductMapper;
-import com.macro.mall.model.PmsBrand;
-import com.macro.mall.model.PmsBrandExample;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.model.PmsProductExample;
-import com.macro.mall.service.PmsBrandService;
+import com.goshopping.admin.dto.PmsBrandParam;
+import com.goshopping.mbg.mapper.PmsBrandMapper;
+import com.goshopping.mbg.mapper.PmsProductMapper;
+import com.goshopping.mbg.model.PmsBrand;
+import com.goshopping.mbg.model.PmsBrandExample;
+import com.goshopping.mbg.model.PmsProduct;
+import com.goshopping.mbg.model.PmsProductExample;
+import com.goshopping.admin.service.PmsBrandService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

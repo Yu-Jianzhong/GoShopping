@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.CmsPrefrenceArea;
+import com.goshopping.mbg.model.CmsPrefrenceArea;
 
 import java.util.List;
 

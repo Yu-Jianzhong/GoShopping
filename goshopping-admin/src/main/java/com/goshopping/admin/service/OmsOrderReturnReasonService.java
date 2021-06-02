@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.OmsOrderReturnReason;
+import com.goshopping.mbg.model.OmsOrderReturnReason;
 
 import java.util.List;
 

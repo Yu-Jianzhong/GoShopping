@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.PmsProductAttributeCategoryItem;
-import com.macro.mall.model.PmsProductAttributeCategory;
+import com.goshopping.admin.dto.PmsProductAttributeCategoryItem;
+import com.goshopping.mbg.model.PmsProductAttributeCategory;
 
 import java.util.List;
 

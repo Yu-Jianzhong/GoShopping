@@ -1,8 +1,8 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.UmsMenu;
-import com.macro.mall.model.UmsResource;
-import com.macro.mall.model.UmsRole;
+import com.goshopping.mbg.model.UmsMenu;
+import com.goshopping.mbg.model.UmsResource;
+import com.goshopping.mbg.model.UmsRole;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

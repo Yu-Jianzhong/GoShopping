@@ -1,7 +1,7 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.OmsCompanyAddress;
-import com.macro.mall.model.OmsOrderReturnApply;
+import com.goshopping.mbg.model.OmsCompanyAddress;
+import com.goshopping.mbg.model.OmsOrderReturnApply;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

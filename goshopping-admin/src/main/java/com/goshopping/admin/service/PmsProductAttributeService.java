@@ -1,8 +1,8 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.PmsProductAttributeParam;
-import com.macro.mall.dto.ProductAttrInfo;
-import com.macro.mall.model.PmsProductAttribute;
+import com.goshopping.admin.dto.PmsProductAttributeParam;
+import com.goshopping.admin.dto.ProductAttrInfo;
+import com.goshopping.mbg.model.PmsProductAttribute;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

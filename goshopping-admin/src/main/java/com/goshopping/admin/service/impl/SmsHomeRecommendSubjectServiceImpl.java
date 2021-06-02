@@ -1,10 +1,10 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.mapper.SmsHomeRecommendSubjectMapper;
-import com.macro.mall.model.SmsHomeRecommendSubject;
-import com.macro.mall.model.SmsHomeRecommendSubjectExample;
-import com.macro.mall.service.SmsHomeRecommendSubjectService;
+import com.goshopping.mbg.mapper.SmsHomeRecommendSubjectMapper;
+import com.goshopping.mbg.model.SmsHomeRecommendSubject;
+import com.goshopping.mbg.model.SmsHomeRecommendSubjectExample;
+import com.goshopping.admin.service.SmsHomeRecommendSubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

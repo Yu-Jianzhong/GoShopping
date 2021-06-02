@@ -1,7 +1,7 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.PmsProductAttribute;
-import com.macro.mall.model.PmsProductAttributeCategory;
+import com.goshopping.mbg.model.PmsProductAttribute;
+import com.goshopping.mbg.model.PmsProductAttributeCategory;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

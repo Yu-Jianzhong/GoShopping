@@ -1,7 +1,11 @@
 package com.goshopping.admin.service.impl;
 
-
-import com.goshopping.admin.mapper.UmsRoleMapper;
+import com.github.pagehelper.PageHelper;
+import com.goshopping.admin.dao.UmsRoleDao;
+import com.goshopping.mbg.mapper.UmsRoleMapper;
+import com.goshopping.mbg.mapper.UmsRoleMenuRelationMapper;
+import com.goshopping.mbg.mapper.UmsRoleResourceRelationMapper;
+import com.goshopping.mbg.model.*;
 import com.goshopping.admin.service.UmsResourceService;
 import com.goshopping.admin.service.UmsRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +28,7 @@ public class UmsRoleServiceImpl implements UmsRoleService {
     @Autowired
     private UmsRoleResourceRelationMapper roleResourceRelationMapper;
     @Autowired
-    private UmsRoleMapper roleDao;
+    private UmsRoleDao roleDao;
     @Autowired
     private UmsResourceService resourceService;
     @Override

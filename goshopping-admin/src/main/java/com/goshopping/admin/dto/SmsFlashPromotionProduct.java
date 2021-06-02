@@ -1,7 +1,7 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.model.SmsFlashPromotionProductRelation;
+import com.goshopping.mbg.model.PmsProduct;
+import com.goshopping.mbg.model.SmsFlashPromotionProductRelation;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

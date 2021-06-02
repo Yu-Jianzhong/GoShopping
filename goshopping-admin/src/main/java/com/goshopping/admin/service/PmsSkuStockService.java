@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.PmsSkuStock;
+import com.goshopping.mbg.model.PmsSkuStock;
 
 import java.util.List;
 

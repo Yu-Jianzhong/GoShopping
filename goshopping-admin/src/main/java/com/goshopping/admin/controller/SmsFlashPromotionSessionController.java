@@ -1,9 +1,9 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.SmsFlashPromotionSessionDetail;
-import com.macro.mall.model.SmsFlashPromotionSession;
-import com.macro.mall.service.SmsFlashPromotionSessionService;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.SmsFlashPromotionSessionDetail;
+import com.goshopping.mbg.model.SmsFlashPromotionSession;
+import com.goshopping.admin.service.SmsFlashPromotionSessionService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

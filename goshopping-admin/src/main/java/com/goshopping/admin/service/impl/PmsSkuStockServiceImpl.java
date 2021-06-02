@@ -1,10 +1,10 @@
 package com.goshopping.admin.service.impl;
 
-import com.goshoppping.admin.mapper.PmsSkuStockDao;
-import com.macro.mall.mapper.PmsSkuStockMapper;
-import com.macro.mall.model.PmsSkuStock;
-import com.macro.mall.model.PmsSkuStockExample;
-import com.macro.mall.service.PmsSkuStockService;
+import com.goshopping.admin.dao.PmsSkuStockDao;
+import com.goshopping.mbg.mapper.PmsSkuStockMapper;
+import com.goshopping.mbg.model.PmsSkuStock;
+import com.goshopping.mbg.model.PmsSkuStockExample;
+import com.goshopping.admin.service.PmsSkuStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

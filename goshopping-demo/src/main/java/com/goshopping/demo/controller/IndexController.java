@@ -1,6 +1,5 @@
 package com.goshopping.demo.controller;
 
-import com.goshopping.common.api.ResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

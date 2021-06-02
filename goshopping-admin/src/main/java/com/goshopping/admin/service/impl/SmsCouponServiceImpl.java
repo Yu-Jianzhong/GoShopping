@@ -1,15 +1,15 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.goshoppping.admin.mapper.SmsCouponDao;
-import com.goshoppping.admin.mapper.SmsCouponProductCategoryRelationDao;
-import com.goshoppping.admin.mapper.SmsCouponProductRelationDao;
-import com.macro.mall.dto.SmsCouponParam;
-import com.macro.mall.mapper.SmsCouponMapper;
-import com.macro.mall.mapper.SmsCouponProductCategoryRelationMapper;
-import com.macro.mall.mapper.SmsCouponProductRelationMapper;
-import com.macro.mall.model.*;
-import com.macro.mall.service.SmsCouponService;
+import com.goshopping.admin.dao.SmsCouponDao;
+import com.goshopping.admin.dao.SmsCouponProductCategoryRelationDao;
+import com.goshopping.admin.dao.SmsCouponProductRelationDao;
+import com.goshopping.admin.dto.SmsCouponParam;
+import com.goshopping.mbg.mapper.SmsCouponMapper;
+import com.goshopping.mbg.mapper.SmsCouponProductCategoryRelationMapper;
+import com.goshopping.mbg.mapper.SmsCouponProductRelationMapper;
+import com.goshopping.mbg.model.*;
+import com.goshopping.admin.service.SmsCouponService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

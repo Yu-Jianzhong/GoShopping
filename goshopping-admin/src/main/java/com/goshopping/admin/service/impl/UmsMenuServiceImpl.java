@@ -1,10 +1,10 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.dto.UmsMenuNode;
-import com.macro.mall.mapper.UmsMenuMapper;
-import com.macro.mall.model.*;
-import com.macro.mall.service.UmsMenuService;
+import com.goshopping.admin.dto.UmsMenuNode;
+import com.goshopping.mbg.mapper.UmsMenuMapper;
+import com.goshopping.mbg.model.*;
+import com.goshopping.admin.service.UmsMenuService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.SmsHomeNewProduct;
+import com.goshopping.mbg.model.SmsHomeNewProduct;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

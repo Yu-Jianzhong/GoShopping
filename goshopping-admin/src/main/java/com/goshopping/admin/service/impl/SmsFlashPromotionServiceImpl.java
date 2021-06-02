@@ -1,10 +1,10 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.mapper.SmsFlashPromotionMapper;
-import com.macro.mall.model.SmsFlashPromotion;
-import com.macro.mall.model.SmsFlashPromotionExample;
-import com.macro.mall.service.SmsFlashPromotionService;
+import com.goshopping.mbg.mapper.SmsFlashPromotionMapper;
+import com.goshopping.mbg.model.SmsFlashPromotion;
+import com.goshopping.mbg.model.SmsFlashPromotionExample;
+import com.goshopping.admin.service.SmsFlashPromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

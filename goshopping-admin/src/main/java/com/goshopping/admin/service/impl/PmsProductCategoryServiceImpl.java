@@ -1,15 +1,15 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.goshoppping.admin.mapper.PmsProductCategoryAttributeRelationDao;
-import com.goshoppping.admin.mapper.PmsProductCategoryDao;
-import com.macro.mall.dto.PmsProductCategoryParam;
-import com.macro.mall.dto.PmsProductCategoryWithChildrenItem;
-import com.macro.mall.mapper.PmsProductCategoryAttributeRelationMapper;
-import com.macro.mall.mapper.PmsProductCategoryMapper;
-import com.macro.mall.mapper.PmsProductMapper;
-import com.macro.mall.model.*;
-import com.macro.mall.service.PmsProductCategoryService;
+import com.goshopping.admin.dao.PmsProductCategoryAttributeRelationDao;
+import com.goshopping.admin.dao.PmsProductCategoryDao;
+import com.goshopping.admin.dto.PmsProductCategoryParam;
+import com.goshopping.admin.dto.PmsProductCategoryWithChildrenItem;
+import com.goshopping.mbg.mapper.PmsProductCategoryAttributeRelationMapper;
+import com.goshopping.mbg.mapper.PmsProductCategoryMapper;
+import com.goshopping.mbg.mapper.PmsProductMapper;
+import com.goshopping.mbg.model.*;
+import com.goshopping.admin.service.PmsProductCategoryService;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

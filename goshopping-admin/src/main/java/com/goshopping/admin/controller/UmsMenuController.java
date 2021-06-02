@@ -1,10 +1,10 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.UmsMenuNode;
-import com.macro.mall.model.UmsMenu;
-import com.macro.mall.service.UmsMenuService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.UmsMenuNode;
+import com.goshopping.mbg.model.UmsMenu;
+import com.goshopping.admin.service.UmsMenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

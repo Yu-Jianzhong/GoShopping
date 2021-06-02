@@ -1,9 +1,9 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.PmsProductParam;
-import com.macro.mall.dto.PmsProductQueryParam;
-import com.macro.mall.dto.PmsProductResult;
-import com.macro.mall.model.PmsProduct;
+import com.goshopping.admin.dto.PmsProductParam;
+import com.goshopping.admin.dto.PmsProductQueryParam;
+import com.goshopping.admin.dto.PmsProductResult;
+import com.goshopping.mbg.model.PmsProduct;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

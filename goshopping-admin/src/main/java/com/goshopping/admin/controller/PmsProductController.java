@@ -1,12 +1,12 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.PmsProductParam;
-import com.macro.mall.dto.PmsProductQueryParam;
-import com.macro.mall.dto.PmsProductResult;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.service.PmsProductService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.PmsProductParam;
+import com.goshopping.admin.dto.PmsProductQueryParam;
+import com.goshopping.admin.dto.PmsProductResult;
+import com.goshopping.mbg.model.PmsProduct;
+import com.goshopping.admin.service.PmsProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

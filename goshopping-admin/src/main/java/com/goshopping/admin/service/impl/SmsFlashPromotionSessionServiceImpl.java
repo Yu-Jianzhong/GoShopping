@@ -1,11 +1,11 @@
 package com.goshopping.admin.service.impl;
 
-import com.macro.mall.dto.SmsFlashPromotionSessionDetail;
-import com.macro.mall.mapper.SmsFlashPromotionSessionMapper;
-import com.macro.mall.model.SmsFlashPromotionSession;
-import com.macro.mall.model.SmsFlashPromotionSessionExample;
-import com.macro.mall.service.SmsFlashPromotionProductRelationService;
-import com.macro.mall.service.SmsFlashPromotionSessionService;
+import com.goshopping.admin.dto.SmsFlashPromotionSessionDetail;
+import com.goshopping.mbg.mapper.SmsFlashPromotionSessionMapper;
+import com.goshopping.mbg.model.SmsFlashPromotionSession;
+import com.goshopping.mbg.model.SmsFlashPromotionSessionExample;
+import com.goshopping.admin.service.SmsFlashPromotionProductRelationService;
+import com.goshopping.admin.service.SmsFlashPromotionSessionService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.UmsResource;
+import com.goshopping.mbg.model.UmsResource;
 
 import java.util.List;
 import java.util.Map;

@@ -1,6 +1,6 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.UmsMenu;
+import com.goshopping.mbg.model.UmsMenu;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

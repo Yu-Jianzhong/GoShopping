@@ -1,8 +1,8 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.OmsOrder;
-import com.macro.mall.model.OmsOrderItem;
-import com.macro.mall.model.OmsOrderOperateHistory;
+import com.goshopping.mbg.model.OmsOrder;
+import com.goshopping.mbg.model.OmsOrderItem;
+import com.goshopping.mbg.model.OmsOrderOperateHistory;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.*;
-import com.macro.mall.model.OmsOrder;
+import com.goshopping.admin.dto.*;
+import com.goshopping.mbg.model.OmsOrder;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

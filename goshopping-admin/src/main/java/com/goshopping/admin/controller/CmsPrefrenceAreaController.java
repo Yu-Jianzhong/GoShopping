@@ -1,8 +1,9 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.CmsPrefrenceArea;
-import com.macro.mall.service.CmsPrefrenceAreaService;
+
+import com.goshopping.admin.service.CmsPrefrenceAreaService;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.mbg.model.CmsPrefrenceArea;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

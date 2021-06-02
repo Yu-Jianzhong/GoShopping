@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.UmsMenuNode;
-import com.macro.mall.model.UmsMenu;
+import com.goshopping.admin.dto.UmsMenuNode;
+import com.goshopping.mbg.model.UmsMenu;
 
 import java.util.List;
 

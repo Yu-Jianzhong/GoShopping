@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.SmsCouponHistory;
+import com.goshopping.mbg.model.SmsCouponHistory;
 
 import java.util.List;
 

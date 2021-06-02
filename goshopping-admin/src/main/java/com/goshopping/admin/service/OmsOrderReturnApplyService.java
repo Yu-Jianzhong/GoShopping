@@ -1,9 +1,9 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.OmsOrderReturnApplyResult;
-import com.macro.mall.dto.OmsReturnApplyQueryParam;
-import com.macro.mall.dto.OmsUpdateStatusParam;
-import com.macro.mall.model.OmsOrderReturnApply;
+import com.goshopping.admin.dto.OmsOrderReturnApplyResult;
+import com.goshopping.admin.dto.OmsReturnApplyQueryParam;
+import com.goshopping.admin.dto.OmsUpdateStatusParam;
+import com.goshopping.mbg.model.OmsOrderReturnApply;
 
 import java.util.List;
 

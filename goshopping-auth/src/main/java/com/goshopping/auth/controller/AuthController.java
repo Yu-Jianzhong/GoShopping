@@ -1,7 +1,6 @@
 package com.goshopping.auth.controller;
 
 import com.goshopping.auth.entity.Oauth2TokenDTO;
-import com.goshopping.common.api.ResponseResult;
 import com.goshopping.common.constant.AuthConstant;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

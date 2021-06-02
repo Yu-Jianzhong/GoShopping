@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.OmsOrderSetting;
+import com.goshopping.mbg.model.OmsOrderSetting;
 
 /**
  * 订单设置Service

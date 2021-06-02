@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.OssCallbackResult;
-import com.macro.mall.dto.OssPolicyResult;
+import com.goshopping.admin.dto.OssCallbackResult;
+import com.goshopping.admin.dto.OssPolicyResult;
 
 import javax.servlet.http.HttpServletRequest;
 

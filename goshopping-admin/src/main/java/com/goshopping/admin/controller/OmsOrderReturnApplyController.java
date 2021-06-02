@@ -1,12 +1,12 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.OmsOrderReturnApplyResult;
-import com.macro.mall.dto.OmsReturnApplyQueryParam;
-import com.macro.mall.dto.OmsUpdateStatusParam;
-import com.macro.mall.model.OmsOrderReturnApply;
-import com.macro.mall.service.OmsOrderReturnApplyService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.OmsOrderReturnApplyResult;
+import com.goshopping.admin.dto.OmsReturnApplyQueryParam;
+import com.goshopping.admin.dto.OmsUpdateStatusParam;
+import com.goshopping.mbg.model.OmsOrderReturnApply;
+import com.goshopping.admin.service.OmsOrderReturnApplyService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

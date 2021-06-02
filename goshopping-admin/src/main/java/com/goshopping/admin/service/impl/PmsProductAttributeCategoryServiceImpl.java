@@ -1,12 +1,12 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.goshoppping.admin.mapper.PmsProductAttributeCategoryDao;
-import com.macro.mall.dto.PmsProductAttributeCategoryItem;
-import com.macro.mall.mapper.PmsProductAttributeCategoryMapper;
-import com.macro.mall.model.PmsProductAttributeCategory;
-import com.macro.mall.model.PmsProductAttributeCategoryExample;
-import com.macro.mall.service.PmsProductAttributeCategoryService;
+import com.goshopping.admin.dao.PmsProductAttributeCategoryDao;
+import com.goshopping.admin.dto.PmsProductAttributeCategoryItem;
+import com.goshopping.mbg.mapper.PmsProductAttributeCategoryMapper;
+import com.goshopping.mbg.model.PmsProductAttributeCategory;
+import com.goshopping.mbg.model.PmsProductAttributeCategoryExample;
+import com.goshopping.admin.service.PmsProductAttributeCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

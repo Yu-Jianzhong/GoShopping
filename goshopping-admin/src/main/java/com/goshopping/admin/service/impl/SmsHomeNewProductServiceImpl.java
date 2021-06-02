@@ -1,10 +1,10 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.mapper.SmsHomeNewProductMapper;
-import com.macro.mall.model.SmsHomeNewProduct;
-import com.macro.mall.model.SmsHomeNewProductExample;
-import com.macro.mall.service.SmsHomeNewProductService;
+import com.goshopping.mbg.mapper.SmsHomeNewProductMapper;
+import com.goshopping.mbg.model.SmsHomeNewProduct;
+import com.goshopping.mbg.model.SmsHomeNewProductExample;
+import com.goshopping.admin.service.SmsHomeNewProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

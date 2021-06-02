@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.OmsCompanyAddress;
+import com.goshopping.mbg.model.OmsCompanyAddress;
 
 import java.util.List;
 

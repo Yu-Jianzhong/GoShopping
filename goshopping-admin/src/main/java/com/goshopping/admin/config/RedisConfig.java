@@ -1,6 +1,6 @@
 package com.goshopping.admin.config;
 
-import com.macro.mall.common.config.BaseRedisConfig;
+import com.goshopping.common.config.BaseRedisConfig;
 import org.springframework.context.annotation.Configuration;
 
 /**

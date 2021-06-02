@@ -1,6 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.UmsAdmin;
+
+import com.goshopping.mbg.model.UmsAdmin;
 
 /**
  * 后台用户缓存操作类

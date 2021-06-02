@@ -1,9 +1,9 @@
 package com.goshopping.admin.service.impl;
 
-import com.macro.mall.mapper.UmsMemberLevelMapper;
-import com.macro.mall.model.UmsMemberLevel;
-import com.macro.mall.model.UmsMemberLevelExample;
-import com.macro.mall.service.UmsMemberLevelService;
+import com.goshopping.mbg.mapper.UmsMemberLevelMapper;
+import com.goshopping.mbg.model.UmsMemberLevel;
+import com.goshopping.mbg.model.UmsMemberLevelExample;
+import com.goshopping.admin.service.UmsMemberLevelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

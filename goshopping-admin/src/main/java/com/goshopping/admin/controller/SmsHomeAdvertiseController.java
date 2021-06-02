@@ -1,9 +1,9 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.SmsHomeAdvertise;
-import com.macro.mall.service.SmsHomeAdvertiseService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.mbg.model.SmsHomeAdvertise;
+import com.goshopping.admin.service.SmsHomeAdvertiseService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

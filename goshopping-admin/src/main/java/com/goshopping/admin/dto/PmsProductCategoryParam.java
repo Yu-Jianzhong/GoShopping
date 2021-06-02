@@ -1,6 +1,7 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.validator.FlagValidator;
+
+import com.goshopping.admin.validator.FlagValidator;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

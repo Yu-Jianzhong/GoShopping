@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.SmsFlashPromotion;
+import com.goshopping.mbg.model.SmsFlashPromotion;
 
 import java.util.List;
 

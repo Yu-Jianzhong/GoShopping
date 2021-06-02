@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.SmsFlashPromotionProduct;
-import com.macro.mall.model.SmsFlashPromotionProductRelation;
+import com.goshopping.admin.dto.SmsFlashPromotionProduct;
+import com.goshopping.mbg.model.SmsFlashPromotionProductRelation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

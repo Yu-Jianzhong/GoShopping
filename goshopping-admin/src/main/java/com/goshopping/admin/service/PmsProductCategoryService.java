@@ -1,8 +1,8 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.PmsProductCategoryParam;
-import com.macro.mall.dto.PmsProductCategoryWithChildrenItem;
-import com.macro.mall.model.PmsProductCategory;
+import com.goshopping.admin.dto.PmsProductCategoryParam;
+import com.goshopping.admin.dto.PmsProductCategoryWithChildrenItem;
+import com.goshopping.mbg.model.PmsProductCategory;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

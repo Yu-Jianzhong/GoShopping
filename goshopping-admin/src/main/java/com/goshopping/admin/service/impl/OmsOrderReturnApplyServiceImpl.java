@@ -1,14 +1,14 @@
 package com.goshopping.admin.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.goshoppping.admin.mapper.OmsOrderReturnApplyDao;
-import com.macro.mall.dto.OmsOrderReturnApplyResult;
-import com.macro.mall.dto.OmsReturnApplyQueryParam;
-import com.macro.mall.dto.OmsUpdateStatusParam;
-import com.macro.mall.mapper.OmsOrderReturnApplyMapper;
-import com.macro.mall.model.OmsOrderReturnApply;
-import com.macro.mall.model.OmsOrderReturnApplyExample;
-import com.macro.mall.service.OmsOrderReturnApplyService;
+import com.goshopping.admin.dao.OmsOrderReturnApplyDao;
+import com.goshopping.admin.dto.OmsOrderReturnApplyResult;
+import com.goshopping.admin.dto.OmsReturnApplyQueryParam;
+import com.goshopping.admin.dto.OmsUpdateStatusParam;
+import com.goshopping.mbg.mapper.OmsOrderReturnApplyMapper;
+import com.goshopping.mbg.model.OmsOrderReturnApply;
+import com.goshopping.mbg.model.OmsOrderReturnApplyExample;
+import com.goshopping.admin.service.OmsOrderReturnApplyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,5 @@
 package com.goshopping.auth.exception;
 
-import com.goshopping.common.api.ResponseResult;
 import org.springframework.security.oauth2.common.exceptions.OAuth2Exception;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

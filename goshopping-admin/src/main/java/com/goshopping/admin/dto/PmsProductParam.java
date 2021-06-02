@@ -1,6 +1,6 @@
 package com.goshopping.admin.dto;
 
-import com.macro.mall.model.*;
+import com.goshopping.mbg.model.*;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

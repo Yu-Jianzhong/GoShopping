@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.SmsFlashPromotionSessionDetail;
-import com.macro.mall.model.SmsFlashPromotionSession;
+import com.goshopping.admin.dto.SmsFlashPromotionSessionDetail;
+import com.goshopping.mbg.model.SmsFlashPromotionSession;
 
 import java.util.List;
 

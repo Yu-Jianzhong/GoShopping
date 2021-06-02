@@ -1,6 +1,6 @@
 package com.goshopping.admin.component;
 
-import com.macro.mall.service.UmsResourceService;
+import com.goshopping.admin.service.UmsResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

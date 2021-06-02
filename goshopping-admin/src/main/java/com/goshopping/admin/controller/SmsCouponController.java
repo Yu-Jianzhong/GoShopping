@@ -1,10 +1,10 @@
 package com.goshopping.admin.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.dto.SmsCouponParam;
-import com.macro.mall.model.SmsCoupon;
-import com.macro.mall.service.SmsCouponService;
+import com.goshopping.common.api.CommonPage;
+import com.goshopping.common.api.CommonResult;
+import com.goshopping.admin.dto.SmsCouponParam;
+import com.goshopping.mbg.model.SmsCoupon;
+import com.goshopping.admin.service.SmsCouponService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.dto.SmsCouponParam;
-import com.macro.mall.model.SmsCoupon;
+import com.goshopping.admin.dto.SmsCouponParam;
+import com.goshopping.mbg.model.SmsCoupon;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

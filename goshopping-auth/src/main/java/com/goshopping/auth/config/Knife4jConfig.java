@@ -1,7 +1,6 @@
 package com.goshopping.auth.config;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
-import com.goshopping.common.config.BaseKnife4jConfig;
 import com.goshopping.common.entity.Knife4jProperties;
 import org.springframework.context.annotation.Configuration;
 

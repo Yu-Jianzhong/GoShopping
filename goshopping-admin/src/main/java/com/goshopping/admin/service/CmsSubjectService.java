@@ -1,6 +1,6 @@
 package com.goshopping.admin.service;
 
-import com.macro.mall.model.CmsSubject;
+import com.goshopping.mbg.model.CmsSubject;
 
 import java.util.List;
 
