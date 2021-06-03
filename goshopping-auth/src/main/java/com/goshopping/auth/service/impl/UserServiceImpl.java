@@ -1,11 +1,11 @@
 package com.goshopping.auth.service.impl;
 
+import com.goshopping.auth.domain.SecurityUser;
 import com.goshopping.auth.constant.MessageConstant;
-import com.goshopping.auth.entity.SecurityUser;
 import com.goshopping.auth.service.UmsAdminService;
 import com.goshopping.auth.service.UmsMemberService;
 import com.goshopping.common.constant.AuthConstant;
-import com.goshopping.common.entity.UserDTO;
+import com.goshopping.common.domain.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AccountExpiredException;
 import org.springframework.security.authentication.CredentialsExpiredException;
@@ -35,7 +35,7 @@ public class UserServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         String clientId = request.getParameter("client_id");
-        UserDTO userDto;
+        UserDto userDto;
         if(AuthConstant.ADMIN_CLIENT_ID.equals(clientId)){
             userDto = adminService.loadUserByUsername(username);
         }else{

@@ -1,6 +1,5 @@
 package com.goshopping.auth.config;
 
-
 import com.goshopping.auth.component.JwtTokenEnhancer;
 import com.goshopping.auth.service.impl.UserServiceImpl;
 import lombok.AllArgsConstructor;

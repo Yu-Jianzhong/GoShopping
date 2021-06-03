@@ -1,6 +1,6 @@
 package com.goshopping.auth.component;
 
-import com.goshopping.auth.entity.SecurityUser;
+import com.goshopping.auth.domain.SecurityUser;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;

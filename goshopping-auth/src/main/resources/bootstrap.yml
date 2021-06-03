@@ -2,4 +2,4 @@ spring:
   profiles:
     active: dev
   application:
-    name: goshopping-auth
+    name: mall-auth

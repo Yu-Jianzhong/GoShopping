@@ -1,6 +1,7 @@
 package com.goshopping.auth.controller;
 
-import com.goshopping.auth.entity.Oauth2TokenDTO;
+import com.goshopping.auth.domain.Oauth2TokenDto;
+import com.goshopping.common.api.CommonResult;
 import com.goshopping.common.constant.AuthConstant;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -41,14 +42,14 @@ public class AuthController {
             @ApiImplicitParam(name = "password", value = "登录密码")
     })
     @RequestMapping(value = "/token", method = RequestMethod.POST)
-    public ResponseResult<Oauth2TokenDTO> postAccessToken(@ApiIgnore Principal principal, @ApiIgnore @RequestParam Map<String, String> parameters) throws HttpRequestMethodNotSupportedException {
+    public CommonResult<Oauth2TokenDto> postAccessToken(@ApiIgnore Principal principal, @ApiIgnore @RequestParam Map<String, String> parameters) throws HttpRequestMethodNotSupportedException {
         OAuth2AccessToken oAuth2AccessToken = tokenEndpoint.postAccessToken(principal, parameters).getBody();
-        Oauth2TokenDTO oauth2TokenDto = Oauth2TokenDTO.builder()
+        Oauth2TokenDto oauth2TokenDto = Oauth2TokenDto.builder()
                 .token(oAuth2AccessToken.getValue())
                 .refreshToken(oAuth2AccessToken.getRefreshToken().getValue())
                 .expiresIn(oAuth2AccessToken.getExpiresIn())
                 .tokenHead(AuthConstant.JWT_TOKEN_PREFIX).build();
 
-        return ResponseResult.success(oauth2TokenDto);
+        return CommonResult.success(oauth2TokenDto);
     }
 }

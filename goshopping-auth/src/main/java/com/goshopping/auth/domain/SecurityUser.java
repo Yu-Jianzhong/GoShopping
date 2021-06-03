@@ -1,7 +1,6 @@
-package com.goshopping.auth.entity;
+package com.goshopping.auth.domain;
 
-
-import com.goshopping.common.entity.UserDTO;
+import com.goshopping.common.domain.UserDto;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -42,7 +41,11 @@ public class SecurityUser implements UserDetails {
      */
     private Collection<SimpleGrantedAuthority> authorities;
 
-    public SecurityUser(UserDTO userDto) {
+    public SecurityUser() {
+
+    }
+
+    public SecurityUser(UserDto userDto) {
         this.setId(userDto.getId());
         this.setUsername(userDto.getUsername());
         this.setPassword(userDto.getPassword());

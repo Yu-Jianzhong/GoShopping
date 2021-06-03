@@ -1,6 +1,6 @@
 package com.goshopping.auth.service;
 
-import com.goshopping.common.entity.UserDTO;
+import com.goshopping.common.domain.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,5 +12,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface UmsAdminService {
 
     @GetMapping("/admin/loadByUsername")
-    UserDTO loadUserByUsername(@RequestParam String username);
+    UserDto loadUserByUsername(@RequestParam String username);
 }

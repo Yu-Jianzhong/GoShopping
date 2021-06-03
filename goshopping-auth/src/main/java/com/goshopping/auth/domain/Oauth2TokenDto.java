@@ -1,4 +1,4 @@
-package com.goshopping.auth.entity;
+package com.goshopping.auth.domain;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
@@ -12,7 +12,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Builder
-public class Oauth2TokenDTO {
+public class Oauth2TokenDto {
     @ApiModelProperty("访问令牌")
     private String token;
     @ApiModelProperty("刷令牌")
