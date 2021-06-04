@@ -1,6 +1,3 @@
-gateway
-portal
-search
-启动前端项目、根据前端页面需要，将mall代码搬到GoShopping项目中
-搭建环境，让GoShopping项目跑起来
+搭建环境，让GoShopping后端项目跑起来
+对接前端
 制定需求
