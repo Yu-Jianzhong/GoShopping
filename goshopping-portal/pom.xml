@@ -11,11 +11,6 @@
 
     <artifactId>goshopping-portal</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>com.goshopping</groupId>
-            <artifactId>goshopping-mbg</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <!--mongodb依赖配置-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
